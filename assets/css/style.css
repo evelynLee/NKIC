@@ -3425,7 +3425,7 @@ hero-btn {
 .main-header .main-menu ul li a {
   color: #0d2d3e;
   font-weight: 700;
-  padding: 39px 19px;
+  padding: 39px 10px;
   display: block;
   font-size: 16px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3538,7 +3538,7 @@ hero-btn {
 
 /* line 195, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .header-sticky.sticky-bar .main-menu nav>ul>li>a {
-  padding: 25px 20px !important;
+  padding: 25px 10px !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3613,7 +3613,7 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 900px;
+  height: 700px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
