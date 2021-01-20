@@ -3684,6 +3684,7 @@ hero-btn {
 .slider-areaService {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .slider-area2 {
