@@ -3613,7 +3613,7 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 480px;
+  height: 600px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3685,6 +3685,7 @@ hero-btn {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
 }
 
 .slider-area2 {
@@ -4091,7 +4092,7 @@ hero-btn {
 
 /* line 260, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button.slick-next i {
-  color:#cccccc;
+  color: #cccccc;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -5397,6 +5398,10 @@ hero-btn {
     float: left;
     padding-top: 10px;
   }
+
+  .login-content {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5541,11 +5546,17 @@ input[type=number] {
   overflow-y: scroll;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .login-content {
+    width: 60%;}
+}
+
 /* Change styles for span and cancel button on extra small screens */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .psw {
-    display: block;
-    float: none;
+    /* display: block; */
+    float: right;
   }
 
   .newAccount {
@@ -5553,7 +5564,7 @@ input[type=number] {
   }
 
   .login-content {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -9376,3 +9387,21 @@ del {
 }
 
 /* parnters end */
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+  .col-xs-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-xs-4 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .col-xs-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
