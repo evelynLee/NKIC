@@ -3376,6 +3376,13 @@ hero-btn {
   display: inline-block;
 }
 
+@media only screen and (min-width: 450px) and (max-width: 1119px) {
+  .header-area .header-top .header-info-right {
+    position: absolute;
+    right:0;
+  }
+}
+
 /* line 58, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .header-top .header-info-right .header-social li a {
   color: rgba(217, 230, 255, 0.8);
@@ -3681,7 +3688,13 @@ hero-btn {
 /* line 31, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2,
 .slider-areaOffice,
-.slider-areaService {
+.slider-areaApplication,
+.slider-areaService,
+.slider-areaTeam,
+.slider-areaPartner,
+.slider-areaSupport,
+.slider-areaContact,
+.slider-areaMembers {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3689,7 +3702,7 @@ hero-btn {
 }
 
 .slider-area2 {
-  background-image: url(../img/hero/hero2.jpg);
+  background-image: url(../img/hero/h2_counter.jpg);
 }
 
 .slider-areaOffice {
@@ -3697,8 +3710,38 @@ hero-btn {
   background-position: center;
 }
 
+.slider-areaApplication {
+  background-image: url(../img/hero/h2_application.jpg);
+  background-position: center;
+}
+
 .slider-areaService {
-  background-image: url(../img/hero/environment_1.jpg);
+  background-image: url(../img/hero/h2_it.jpg);
+  background-position: center;
+}
+
+.slider-areaTeam {
+  background-image: url(../img/hero/h2_teams.jpg);
+  background-position: center;
+}
+
+.slider-areaPartner {
+  background-image: url(../img/hero/h2_partner.jpg);
+  background-position: center;
+}
+
+.slider-areaSupport {
+  background-image: url(../img/hero/h2_support.jpg);
+  background-position: center;
+}
+
+.slider-areaContact {
+  background-image: url(../img/hero/h2_contact.jpg);
+  background-position: center;
+}
+
+.slider-areaMembers {
+  background-image: url(../img/hero/h2_members.jpg);
   background-position: center;
 }
 
@@ -3739,7 +3782,7 @@ hero-btn {
   font-weight: 600;
   margin-bottom: 22px;
   text-transform: uppercase;
-  color: #dd1615;
+  color: rgba(253, 218, 218, 0.8);
   display: inline-block;
   position: relative;
   padding-left: 100px;
@@ -3892,7 +3935,7 @@ hero-btn {
 .hero-overly2::before {
   position: absolute;
   content: "";
-  background-color: rgba(13, 45, 62, 0.8);
+  background-color: rgba(13, 45, 62, 0.35);
   width: 100%;
   height: 100%;
   left: 0;
@@ -3915,7 +3958,13 @@ hero-btn {
 /* line 177, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2 .hero-cap h2,
 .slider-areaOffice .hero-cap h2,
-.slider-areaService .hero-cap h2 {
+.slider-areaService .hero-cap h2,
+.slider-areaApplication .hero-cap h2,
+.slider-areaTeam .hero-cap h2,
+.slider-areaPartner .hero-cap h2,
+.slider-areaSupport .hero-cap h2,
+.slider-areaContact .hero-cap h2,
+.slider-areaMembers .hero-cap h2 {
   color: #fff;
   font-size: 60px;
   font-weight: 700;
