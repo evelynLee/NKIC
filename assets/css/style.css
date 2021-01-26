@@ -3756,7 +3756,7 @@ hero-btn {
 
 .single-slider2 {
   margin-top: -1px;
-  background-image: url(../img/hero/h2_counter.jpg);
+  background-image: url(../img/hero/h2_star.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4301,7 +4301,7 @@ hero-btn {
 }
 
 /* line 86, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
-.categories-area .single-cat:hover .cat-cap h4 {
+.categories-area .single-cat:hover .cat-cap h5 {
   color: #fff;
 }
 
